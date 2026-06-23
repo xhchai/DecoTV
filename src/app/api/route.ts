@@ -11,7 +11,7 @@ import {
 } from '@/lib/video-quality';
 
 export const runtime = 'nodejs';
-
+export const runtime = 'edge';
 // 根路径 API - 为 OrionTV 提供服务器信息和健康检查
 // 支持成人内容模式检测
 export async function GET(request: NextRequest) {
