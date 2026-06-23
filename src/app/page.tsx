@@ -22,7 +22,7 @@ import { useSite } from '@/components/SiteProvider';
 import VideoCard from '@/components/VideoCard';
 
 import { useGlobalCache } from '@/contexts/GlobalCacheContext';
-
+export const runtime = 'edge';
 function HomeClient() {
   const [activeTab, setActiveTab] = useState<'home' | 'favorites'>('home');
   const { siteName, announcement } = useSite();
